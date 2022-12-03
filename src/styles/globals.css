@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+html,
+body {
+  @apply scroll-smooth font-poppins;
+}
+
+@layer components {
+  .heading {
+    @apply text-[52px] font-semibold tracking-[5%] text-black;
+  }
+  .heading-brand {
+    @apply text-[52px] font-semibold tracking-[5%] text-brand;
+  }
+  .sub-heading {
+    @apply text-xl font-semibold tracking-[5%] text-black;
+  }
+  .text {
+    @apply text-base font-normal tracking-[2%] text-[#4A4545];
+  }
+}
